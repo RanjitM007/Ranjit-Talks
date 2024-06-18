@@ -5,7 +5,7 @@ draft = false
 author = "Ranjit M"
 tags =["Logistic Regression", "Machine Learning", "Binary Classification", "Data Science", "Statistical Modeling","Python","Gradient Descent","Sigmoid Function","Cost Function"]
 +++
-# Logistic Regression
+
 
 Logistic Regression is a statistical method used for binary classification. It predicts the probability of a binary response based on one or more predictor variables.
 
@@ -25,6 +25,8 @@ Unlike linear regression, which is used for predicting continuous numerical valu
 The core of logistic regression lies in the logistic function, also known as the sigmoid function, which maps any real-valued input to a value between 0 and 1:
 
 \[ P(Y=1 \mid X) = \frac{1}{1 + e^{-\beta \cdot X}} \]
+
+
 
 Where:
 - \( Y \) is the binary dependent variable.
@@ -85,33 +87,38 @@ print(f"Accuracy: {accuracy}")
 ```
 ### In this example:
 
-    - *We first generate synthetic data using make_classification from scikit-learn, which creates a random n-class classification problem.*
-    - *Next, we split the data into training and testing sets using train_test_split.*
-    - *We initialize a logistic regression model with LogisticRegression.*
-    - *The model is trained on the training data using fit.*
-    - *We then make predictions on the test data using predict.*
-    - *Finally, we evaluate the model's performance by calculating the accuracy using accuracy_score.*
+- We first generate synthetic data using make_classification from scikit-learn, which creates a random n-class classification problem.
+
+- Next, we split the data into training and testing sets using train_test_split.
+
+- We initialize a logistic regression model with LogisticRegression.
+- The model is trained on the training data using fit.
+- We then make predictions on the test data using predict.
+-Finally, we evaluate the model's performance by calculating the accuracy using accuracy_score.
 
 ### Applications of Logistic Regression
 Logistic Regression finds application in various real-world scenarios:
 
-    - **Healthcare**: *Predicting the likelihood of a patient having a certain disease based on symptoms and medical history.*
-    - **Finance**: *Assessing the risk of default on a loan based on financial attributes of the borrower.*
-    - **Marketing**: *Predicting whether a customer will respond to a marketing campaign based on demographic and behavioral data.*
-    - **Social Sciences**: *Understanding factors influencing voter turnout or predicting outcomes in social research.*
+- **Healthcare**: *Predicting the likelihood of a patient having a certain disease based on symptoms and medical history.*
+- **Finance**: *Assessing the risk of default on a loan based on financial attributes of the borrower.*
+- **Marketing**: *Predicting whether a customer will respond to a marketing campaign based on demographic and behavioral data.*
+- **Social Sciences**: *Understanding factors influencing voter turnout or predicting outcomes in social research.*
 
 
 ## Advantages and Limitations
 ### Advantages:
-    - **Interpretability**: *Coefficients in logistic regression provide insights into the relationship between input variables and the likelihood of the outcome.*
-    - **Efficiency**: *It is computationally inexpensive compared to more complex models.*
-    - *Works well with linearly separable data: When the decision boundary is linear, logistic regression performs well.*
+- <span style="color:green">**Interpretability**: *Coefficients in logistic regression provide insights into the relationship between input variables and the likelihood of the outcome.*</span>
+- <span style="color:green">**Efficiency**: *It is computationally inexpensive compared to more complex models.*</span>
+- <span style="color:green">*Works well with linearly separable data: When the decision boundary is linear, logistic regression performs well.*</span>
 
 ### Limitations:
 
-**Assumption of Linearity**: *Logistic regression assumes a linear relationship between the independent variables and the log odds of the outcome.*
-**Binary Output Only**: *It is designed for binary classification tasks and may not perform well with multi-class problems without extensions like one-vs-rest.*
-**Sensitive to Outliers**: *Outliers in the data can disproportionately influence the model's coefficients and predictions*
+**Assumption of Linearity**: <span style="color:red">*Logistic regression assumes a linear relationship between the independent variables and the log odds of the outcome.*</span>
+
+**Binary Output Only**: <span style="color:red">*It is designed for binary classification tasks and may not perform well with multi-class problems without extensions like one-vs-rest.*</span>
+
+**Sensitive to Outliers**: <span style="color:red">*Outliers in the data can disproportionately influence the model's coefficients and predictions.*</span>
+
 
 ## *Conclusion*
 *Logistic Regression is a powerful and widely used technique for binary classification tasks. By modeling the probability of a binary outcome using the logistic function, it provides a probabilistic interpretation of predictions and is particularly useful when interpretability of results is important. This documentation has covered the mathematical foundations of logistic regression, provided a practical Python implementation example using scikit-learn, discussed its applications across different domains, and highlighted its advantages and limitations.*
