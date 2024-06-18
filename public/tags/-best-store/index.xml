@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> Best Store on My New Hugo Site</title>
-    <link>https://example.org/tags/-best-store/</link>
-    <description>Recent content in  Best Store on My New Hugo Site</description>
+    <title> Best Store on Ranjit-Talks</title>
+    <link>https://ranjit-talks.netlify.app/tags/-best-store/</link>
+    <description>Recent content in  Best Store on Ranjit-Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 13:21:13 +0530</lastBuildDate>
-    <atom:link href="https://example.org/tags/-best-store/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ranjit-talks.netlify.app/tags/-best-store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>12 things that won&#39;t happen in cool science experiments</title>
-      <link>https://example.org/posts/post-6/</link>
+      <link>https://ranjit-talks.netlify.app/posts/post-6/</link>
       <pubDate>Tue, 18 Jun 2024 13:21:13 +0530</pubDate>
-      <guid>https://example.org/posts/post-6/</guid>
+      <guid>https://ranjit-talks.netlify.app/posts/post-6/</guid>
       <description>Ranjit 18 myths uncovered about science current events. 10 facts about science facts that&amp;rsquo;ll keep you up at night. Why our world would end if latest electronic gadgets disappeared. Why latest electronic gadgets are on crack about latest electronic gadgets. How devices aren&amp;rsquo;t as bad as you think. What wikipedia can&amp;rsquo;t tell you about accessories. Why the next 10 years of future technologies will smash the last 10. 18 podcasts about accessories.</description>
     </item>
   </channel>

@@ -38,29 +38,105 @@
             <a href="https://ranjitm007.github.io/portfolio/" target="_blank">Posted By: Ranjit M</a>
         </span>
         <span class="post-date">
-            <time>Jun 18, 180621, 1:21PM</time>
+            <time>Dec 22, 221221, 1:21PM</time>
         </span>
         <span class="post-tags">
             
-            <a href="/tags/Technology">Technology</a>
+            <a href="/tags/Logistic%20Regression">Logistic Regression</a>
             
-            <a href="/tags/Application">Application</a>
+            <a href="/tags/Machine%20Learning">Machine Learning</a>
             
-            <a href="/tags/Geek%20Ideas">Geek Ideas</a>
+            <a href="/tags/Binary%20Classification">Binary Classification</a>
             
-            <a href="/tags/Tech%20Review">Tech Review</a>
+            <a href="/tags/Data%20Science">Data Science</a>
             
-            <a href="/tags/Digital%20Life">Digital Life</a>
+            <a href="/tags/Statistical%20Modeling">Statistical Modeling</a>
+            
+            <a href="/tags/Python">Python</a>
+            
+            <a href="/tags/Gradient%20Descent">Gradient Descent</a>
+            
+            <a href="/tags/Sigmoid%20Function">Sigmoid Function</a>
+            
+            <a href="/tags/Cost%20Function">Cost Function</a>
             
         </span>
     </Div>
     <div class="entry-content">
-        <h1 id="header-here">Header Here</h1>
-<p>The complete beginner&rsquo;s guide to cool tech gadgets. The 17 worst accessories in history. Why geek ideas are the new black. The 14 worst songs about home tech gadgets. Why do people think home tech gadgets are a good idea? The 11 worst devices in history. How tech reviews aren&rsquo;t as bad as you think. 18 ways technology tips can make you rich. Why science museums are on crack about science museums. 16 facts about operating systems that will impress your friends.</p>
-<p><a href="https://www.icc-cricket.com/tournaments/t20cricketworldcup/index">some links</a></p>
-<h1 id="paragraph-2">Paragraph 2</h1>
-<p>How to cheat at amazing gadgets and get away with it. 14 things your boss expects you know about devices. 7 facts about devices that&rsquo;ll keep you up at night. The best ways to utilize accessories. The 15 worst computer support specialists in history. The 15 best science fair idea youtube videos. The only future technology resources you will ever need. Unbelievable science current event success stories. The oddest place you will find operating systems. The 15 best best store youtube videos.</p>
-
+        <h1 id="logistic-regression">Logistic Regression</h1>
+<p>Logistic Regression is a statistical method used for binary classification. It predicts the probability of a binary response based on one or more predictor variables.</p>
+<p><img src="/images/logistic-reg.jpeg" alt="Logistic Regression Image"></p>
+<h2 id="key-concepts">Key Concepts</h2>
+<h3 id="1-sigmoid-function">1. Sigmoid Function</h3>
+<p>The sigmoid function maps predicted values to probabilities:
+[ \sigma(z) = \frac{1}{1 + e^{-z}} ]
+where ( z = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n ).</p>
+<p>The sigmoid function outputs a value between 0 and 1, which can be interpreted as a probability.</p>
+<h3 id="2-hypothesis-function">2. Hypothesis Function</h3>
+<p>In logistic regression, the hypothesis function ( h_\theta(x) ) is defined as:
+[ h_\theta(x) = \sigma(\theta^T x) ]
+This function outputs the estimated probability that ( y = 1 ) given input ( x ).</p>
+<h3 id="3-cost-function">3. Cost Function</h3>
+<p>The cost function used in logistic regression is the log-loss or binary cross-entropy loss:
+[ J(\theta) = - \frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right] ]
+This function measures the performance of the model by comparing the predicted probabilities with the actual class labels.</p>
+<h3 id="4-gradient-descent">4. Gradient Descent</h3>
+<p>Gradient Descent is used to minimize the cost function:
+[ \theta := \theta - \alpha \frac{\partial J(\theta)}{\partial \theta} ]
+where ( \alpha ) is the learning rate. The gradient of the cost function with respect to the parameters ( \theta ) is computed and used to update the parameters iteratively.</p>
+<h2 id="mathematical-formulation">Mathematical Formulation</h2>
+<ol>
+<li>
+<p><strong>Logistic Model</strong>:
+[ P(y=1|x; \theta) = \sigma(\theta^T x) ]
+[ P(y=0|x; \theta) = 1 - \sigma(\theta^T x) ]</p>
+</li>
+<li>
+<p><strong>Decision Boundary</strong>:
+The decision boundary is defined by the set of points where ( \theta^T x = 0 ).</p>
+</li>
+<li>
+<p><strong>Parameter Estimation</strong>:
+Parameters ( \theta ) are estimated using Maximum Likelihood Estimation (MLE). The likelihood function is:
+[ L(\theta) = \prod_{i=1}^{m} P(y^{(i)}|x^{(i)}; \theta) ]
+Taking the logarithm of the likelihood function gives the log-likelihood:
+[ \ell(\theta) = \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right] ]</p>
+</li>
+</ol>
+<h2 id="python-implementation">Python Implementation</h2>
+<p>Here&rsquo;s a basic implementation of logistic regression using Python and the popular library <code>scikit-learn</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.model_selection <span style="color:#f92672">import</span> train_test_split
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.linear_model <span style="color:#f92672">import</span> LogisticRegression
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> accuracy_score, confusion_matrix, classification_report
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Load dataset</span>
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data.csv&#39;</span>)
+</span></span><span style="display:flex;"><span>X <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>drop(<span style="color:#e6db74">&#39;target&#39;</span>, axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#39;target&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Split data into training and testing sets</span>
+</span></span><span style="display:flex;"><span>X_train, X_test, y_train, y_test <span style="color:#f92672">=</span> train_test_split(X, y, test_size<span style="color:#f92672">=</span><span style="color:#ae81ff">0.3</span>, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">42</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create logistic regression model</span>
+</span></span><span style="display:flex;"><span>model <span style="color:#f92672">=</span> LogisticRegression()
+</span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>fit(X_train, y_train)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make predictions</span>
+</span></span><span style="display:flex;"><span>y_pred <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_test)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Evaluate the model</span>
+</span></span><span style="display:flex;"><span>accuracy <span style="color:#f92672">=</span> accuracy_score(y_test, y_pred)
+</span></span><span style="display:flex;"><span>conf_matrix <span style="color:#f92672">=</span> confusion_matrix(y_test, y_pred)
+</span></span><span style="display:flex;"><span>class_report <span style="color:#f92672">=</span> classification_report(y_test, y_pred)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;Accuracy: </span><span style="color:#e6db74">{</span>accuracy <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span><span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">%&#39;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Confusion Matrix:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(conf_matrix)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Classification Report:&#39;</span>)
+</span></span><span style="display:flex;"><span>print(class_report)
+</span></span></code></pre></div>
     </div>
 </article>
 
@@ -69,7 +145,7 @@
     </main>
     <footer id="side-footer" class="p-3 mb-2 bg-dark text-white">
         <div class="copyright text-center">
-            &copy; 2024 My New Hugo Site
+            &copy; 2024 Ranjit-Talks
         </div>
     </footer>
     <script src="/js/bootstrap.min.js"></script>

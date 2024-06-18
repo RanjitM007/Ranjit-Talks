@@ -1,123 +1,186 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Ranjit-Talks</title>
+    <link>https://ranjit-talks.netlify.app/tags/</link>
+    <description>Recent content in Tags on Ranjit-Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 17:08:16 +0530</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ranjit-talks.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://example.org/tags/about/</link>
+      <link>https://ranjit-talks.netlify.app/tags/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/about/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Devices</title>
-      <link>https://example.org/tags/devices/</link>
+      <link>https://ranjit-talks.netlify.app/tags/devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/devices/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/devices/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Life</title>
-      <link>https://example.org/tags/digital-life/</link>
+      <link>https://ranjit-talks.netlify.app/tags/digital-life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/digital-life/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/digital-life/</guid>
       <description></description>
     </item>
     <item>
       <title>Science</title>
-      <link>https://example.org/tags/science/</link>
+      <link>https://ranjit-talks.netlify.app/tags/science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/science/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/science/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech Review</title>
-      <link>https://example.org/tags/tech-review/</link>
+      <link>https://ranjit-talks.netlify.app/tags/tech-review/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/tech-review/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/tech-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://example.org/tags/technology/</link>
+      <link>https://ranjit-talks.netlify.app/tags/technology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/technology/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Application</title>
-      <link>https://example.org/tags/application/</link>
+      <link>https://ranjit-talks.netlify.app/tags/application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/application/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/application/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Store</title>
-      <link>https://example.org/tags/best-store/</link>
+      <link>https://ranjit-talks.netlify.app/tags/best-store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/best-store/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/best-store/</guid>
       <description></description>
     </item>
     <item>
       <title>Best</title>
-      <link>https://example.org/tags/best/</link>
+      <link>https://ranjit-talks.netlify.app/tags/best/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/best/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/best/</guid>
       <description></description>
     </item>
     <item>
       <title>Store</title>
-      <link>https://example.org/tags/store/</link>
+      <link>https://ranjit-talks.netlify.app/tags/store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/store/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/store/</guid>
       <description></description>
     </item>
     <item>
       <title> Best Store</title>
-      <link>https://example.org/tags/-best-store/</link>
+      <link>https://ranjit-talks.netlify.app/tags/-best-store/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/-best-store/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/-best-store/</guid>
       <description></description>
     </item>
     <item>
       <title>Accessory</title>
-      <link>https://example.org/tags/accessory/</link>
+      <link>https://ranjit-talks.netlify.app/tags/accessory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/accessory/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/accessory/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech Tips</title>
-      <link>https://example.org/tags/tech-tips/</link>
+      <link>https://ranjit-talks.netlify.app/tags/tech-tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/tech-tips/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/tech-tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Geek Ideas</title>
-      <link>https://example.org/tags/geek-ideas/</link>
+      <link>https://ranjit-talks.netlify.app/tags/geek-ideas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/geek-ideas/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/geek-ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>Adventure</title>
-      <link>https://example.org/tags/adventure/</link>
+      <link>https://ranjit-talks.netlify.app/tags/adventure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/adventure/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/adventure/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://example.org/tags/games/</link>
+      <link>https://ranjit-talks.netlify.app/tags/games/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/games/</guid>
+      <guid>https://ranjit-talks.netlify.app/tags/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary Classification</title>
+      <link>https://ranjit-talks.netlify.app/tags/binary-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/binary-classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost Function</title>
+      <link>https://ranjit-talks.netlify.app/tags/cost-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/cost-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://ranjit-talks.netlify.app/tags/data-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gradient Descent</title>
+      <link>https://ranjit-talks.netlify.app/tags/gradient-descent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/gradient-descent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logistic Regression</title>
+      <link>https://ranjit-talks.netlify.app/tags/logistic-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/logistic-regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ranjit-talks.netlify.app/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://ranjit-talks.netlify.app/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sigmoid Function</title>
+      <link>https://ranjit-talks.netlify.app/tags/sigmoid-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/sigmoid-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Modeling</title>
+      <link>https://ranjit-talks.netlify.app/tags/statistical-modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ranjit-talks.netlify.app/tags/statistical-modeling/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Science on My New Hugo Site</title>
-    <link>https://example.org/tags/science/</link>
-    <description>Recent content in Science on My New Hugo Site</description>
+    <title>Science on Ranjit-Talks</title>
+    <link>https://ranjit-talks.netlify.app/tags/science/</link>
+    <description>Recent content in Science on Ranjit-Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 13:26:43 +0530</lastBuildDate>
-    <atom:link href="https://example.org/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ranjit-talks.netlify.app/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unbelievable cool science experiment success stories</title>
-      <link>https://example.org/posts/post-10/</link>
+      <link>https://ranjit-talks.netlify.app/posts/post-10/</link>
       <pubDate>Tue, 18 Jun 2024 13:26:43 +0530</pubDate>
-      <guid>https://example.org/posts/post-10/</guid>
+      <guid>https://ranjit-talks.netlify.app/posts/post-10/</guid>
       <description>Post No #10 19 things your boss expects you know about computer support specialists. Why do people think latest electronic gadgets are a good idea? How operating systems aren&amp;rsquo;t as bad as you think. What everyone is saying about accessories. What everyone is saying about technology tips. 18 insane (but true) things about business software. The 10 worst home tech gadgets in history. The 20 best science fact youtube videos. How hollywood got future technologies all wrong.</description>
     </item>
     <item>
       <title>Why tech reviews will change your life</title>
-      <link>https://example.org/posts/post-4/</link>
+      <link>https://ranjit-talks.netlify.app/posts/post-4/</link>
       <pubDate>Tue, 18 Jun 2024 13:14:50 +0530</pubDate>
-      <guid>https://example.org/posts/post-4/</guid>
+      <guid>https://ranjit-talks.netlify.app/posts/post-4/</guid>
       <description>Paragraph Random content Typography Raw Texts Image 1 Image 2 Image 3 Video Dummy Image With Link to Itself Why technology tips will change your life. Ways your mother lied to you about wholesale accessories. The unconventional guide to tech reviews. 6 ways home tech gadgets can make you rich. What wikipedia can&amp;rsquo;t tell you about science current events. How to start using dollar general applications. The 11 best electronic device twitter feeds to follow.</description>
     </item>
   </channel>

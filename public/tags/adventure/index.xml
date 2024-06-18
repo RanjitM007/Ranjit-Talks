@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Adventure on My New Hugo Site</title>
-    <link>https://example.org/tags/adventure/</link>
-    <description>Recent content in Adventure on My New Hugo Site</description>
+    <title>Adventure on Ranjit-Talks</title>
+    <link>https://ranjit-talks.netlify.app/tags/adventure/</link>
+    <description>Recent content in Adventure on Ranjit-Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jun 2024 12:42:20 +0530</lastBuildDate>
-    <atom:link href="https://example.org/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ranjit-talks.netlify.app/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The 6 best gaming chair youtube videos</title>
-      <link>https://example.org/posts/welcome/</link>
+      <link>https://ranjit-talks.netlify.app/posts/welcome/</link>
       <pubDate>Tue, 18 Jun 2024 12:42:20 +0530</pubDate>
-      <guid>https://example.org/posts/welcome/</guid>
+      <guid>https://ranjit-talks.netlify.app/posts/welcome/</guid>
       <description>Random content Typography Raw Texts Image 1 Image 2 Image 3 Video Dummy Image With Link to Itself Why your gaming chair never works out the way you plan. 6 things about deck of cards your kids don&amp;rsquo;t want you to know. How cool math games changed how we think about death. Why game websites are killing you. 20 myths uncovered about game downloads. Why mom was right about game websites.</description>
     </item>
   </channel>
