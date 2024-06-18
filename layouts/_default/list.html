@@ -1,0 +1,45 @@
+{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <section class="post-list">
+        {{ range .Paginator.Pages }}
+        <article class="single-post border-bottom pb-4">
+            <h2 class="entry-title mt-4 mb-4">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+
+            <div class="post-meta mb-8">
+                <span class="post-author">
+                    <a href="https://ranjitm007.github.io/portfolio/" target="_blank">Posted By: {{ .Params.author }}</a>
+                </span>
+                <span class="post-date">
+                    <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+                </span>
+                <span class="post-tags">
+                    {{ range .Params.tags }}
+                    <a href="/tags/{{ . }}">{{ . }}</a>
+                    {{ end }}
+                </span>
+            </div>
+            <div class="entry-content">
+                {{ .Summary }}
+            </div>
+        </article>
+        {{ end }}
+        <div class="mt-4">
+            {{ template "_internal/pagination.html" . }}
+        </div>
+    </section>
+</body>
+
+</html>
+{{ end }}

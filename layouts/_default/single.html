@@ -1,0 +1,22 @@
+
+{{define "main"}}
+<article class="single-post">
+    <h1 class="entry-title mt-4 mb-4">{{.Title}}</h1>
+    <Div class="post-meta mb-4">
+        <span class="post-author">
+            <a href="https://ranjitm007.github.io/portfolio/" target="_blank">Posted By: {{.Params.author}}</a>
+        </span>
+        <span class="post-date">
+            <time>{{dateFormat .Site.Params.dateFormat .Date}}</time>
+        </span>
+        <span class="post-tags">
+            {{range.Params.tags}}
+            <a href="/tags/{{.}}">{{.}}</a>
+            {{end}}
+        </span>
+    </Div>
+    <div class="entry-content">
+        {{.Content}}
+    </div>
+</article>
+{{end}}

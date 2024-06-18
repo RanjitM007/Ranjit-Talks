@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Tips on My New Hugo Site</title>
+    <link>https://example.org/tags/tech-tips/</link>
+    <description>Recent content in Tech Tips on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 13:17:06 +0530</lastBuildDate>
+    <atom:link href="https://example.org/tags/tech-tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The complete beginner&#39;s guide to science fair ideas</title>
+      <link>https://example.org/posts/post-5/</link>
+      <pubDate>Tue, 18 Jun 2024 13:17:06 +0530</pubDate>
+      <guid>https://example.org/posts/post-5/</guid>
+      <description>Paragraph 3 Why science facts will make you question everything. Why your science fact never works out the way you plan. Why you shouldn&amp;rsquo;t eat business software in bed. What everyone is saying about electronic devices. Why applications will change your life. The evolution of best stores. 10 ways electronic devices can make you rich. Why your operating system never works out the way you plan. Why science facts are killing you.</description>
+    </item>
+  </channel>
+</rss>
